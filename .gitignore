@@ -1,0 +1,19 @@
+# This repo hosts release artifacts via GitHub Releases only.
+# Keep build outputs and local cruft out of git.
+
+# Build / release artifacts (uploaded to Releases, not committed)
+*.exe
+*.msi
+*.zip
+*.sig
+*.nsis.zip
+latest.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
