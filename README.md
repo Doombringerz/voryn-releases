@@ -8,7 +8,7 @@ This repository contains **no source code**. It hosts only the release artifacts
 
 Grab the latest Windows installer from the [Releases](https://github.com/Doombringerz/voryn-releases/releases/latest) page:
 
-- `VORYN_x.x.x_x64-setup.exe` — full installer. Download and run it.
+- `VORYN_x.x.x_x64-setup.exe`: the full installer. Download and run it.
 
 On first launch, Windows SmartScreen may warn about an unknown publisher. Choose **More info -> Run anyway** to continue.
 
