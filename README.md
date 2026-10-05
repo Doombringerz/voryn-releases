@@ -16,6 +16,8 @@ On first launch, Windows SmartScreen may warn about an unknown publisher. Choose
 
 VORYN is built with [Tauri](https://tauri.app), and its updater checks this repository for new versions on launch.
 
+The updater activates with the first signed release. Release 0.1.4 ships the installer only and has no `latest.json` yet.
+
 1. The updater fetches the manifest at:
    ```
    https://github.com/Doombringerz/voryn-releases/releases/latest/download/latest.json
@@ -28,7 +30,7 @@ Because every update is cryptographically signed and verified against a pinned p
 
 ## Release assets
 
-Each published release contains:
+Each signed release contains:
 
 | Asset | Purpose |
 |---|---|
